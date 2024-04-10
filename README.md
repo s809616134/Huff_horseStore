@@ -1,17 +1,27 @@
-## Foundry
+<p align="center">
+<img src="./images/huff_dark.png" width="400" alt="huff">
+<br/>
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## HUFF
 
-Foundry consists of:
+**A low level assembly language for the EVM.**
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## Purpose of this repo:
 
-## Documentation
+**Use low level language for gas optimization**
 
-https://book.getfoundry.sh/
+## What is included in the repo:
+
+<strong>
+<ul>
+<li>Solidity</li>
+<li>Huff</li>
+<li>EVM data interaction mechanism</li>
+<li>Forge test and gas snapshot</li>
+</ul>
+</strong>
+
+**About 10% gas saved for user, at the expense of development speed and potential security**
 
 ## Usage
 
@@ -27,40 +37,12 @@ $ forge build
 $ forge test
 ```
 
-### Format
-
-```shell
-$ forge fmt
-```
-
 ### Gas Snapshots
 
 ```shell
 $ forge snapshot
 ```
 
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+<p align="center">
+<img src="./images/gas_snapshot.png" width="600" alt="foundry_gas_snapshot">
+<br/>
