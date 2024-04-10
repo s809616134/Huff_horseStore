@@ -44,5 +44,5 @@ $ forge snapshot
 ```
 
 <p align="center">
-<img src="./images/gas_snapshot.png" width="600" alt="foundry_gas_snapshot">
+<img src="./images/gas_snapshot.png" width="auto" alt="foundry_gas_snapshot">
 <br/>
